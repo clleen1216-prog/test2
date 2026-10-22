@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test App</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      background: #f4f6fb;
+      color: #222;
+    }
+    h1 { margin-bottom: 0.5rem; }
+    #count { font-size: 4rem; margin: 1rem 0; }
+    button {
+      font-size: 1.1rem;
+      padding: 0.6rem 1.4rem;
+      margin: 0 0.3rem;
+      border: none;
+      border-radius: 8px;
+      background: #3b6cf6;
+      color: white;
+      cursor: pointer;
+    }
+    button:hover { background: #2a55d4; }
+    button.secondary { background: #888; }
+  </style>
+</head>
+<body>
+  <h1>Hello, GitHub!</h1>
+  <p>My first app pushed from my computer.</p>
+  <div id="count">0</div>
+  <div>
+    <button id="plus">+1</button>
+    <button id="reset" class="secondary">Reset</button>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
